@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunny's Store - Checkout</title>
+  </head>
+  <body bgcolor="lightblue">
+    <header>
+      <h1><font color="orange">Sunny's Store</font></h1>
+      <nav>
+        <ul>
+          <li>
+            <font color="green"><a href="index.html">Home</a></font>
+          </li>
+          <li>
+            <font color="green"><a href="product.html">Books</a></font>
+          </li>
+          <li>
+            <font color="green"><a href="contact.html">Contact</a></font>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2><font color="darkblue">Checkout</font></h2>
+        <form action="#" method="post">
+          <p>
+            <label for="fullname"><font color="brown">Full Name:</font></label
+            ><br />
+            <input type="text" id="fullname" name="fullname" required />
+          </p>
+          <p>
+            <label for="email"><font color="brown">Email Address:</font></label
+            ><br />
+            <input type="email" id="email" required />
+          </p>
+          <p>
+            <label for="phone"><font color="brown">Phone Number:</font></label
+            ><br />
+            <input type="tel" id="phone" name="phone" required />
+          </p>
+          <p>
+            <label for="address"><font color="brown">Address:</font></label
+            ><br />
+            <textarea
+              id="address"
+              name="address"
+              rows="4"
+              cols="50"
+              required
+            ></textarea>
+          </p>
+          <p><font color="brown">Payment Method:</font></p>
+          <p>
+            <input type="range" id="cod" required />
+            <label for="cod">Cash on Delivery</label><br />
+
+            <input type="radio" id="credit" />
+            <label for="credit">Credit Card</label><br />
+
+            <input type="radio" id="paypal" />
+            <label for="paypal">PayPal</label>
+          </p>
+          <p>
+            <button type="submit">Place Order</button>
+          </p>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
